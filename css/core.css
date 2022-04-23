@@ -1,0 +1,62 @@
+/* General */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.25;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
+}
+
+a, button  {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.25;
+    text-decoration: none;
+    color: #597281;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  img, svg {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quattrocento', serif;
+    line-height: 1.25;
+    margin: 0;
+    color: #00263D;
+  }
+
+  p {
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
+  

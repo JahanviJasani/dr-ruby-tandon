@@ -2,8 +2,42 @@
 # General
 --------------------------------------------------------------*/
 body {
-    background: #FDF7F5;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 400;
-    margin: 0;
-  }
+  background: #FDF7F5;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 92px;
+  border-bottom: 1px solid rgba(230, 233, 236, 0.1);
+  z-index: 999;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.header__logo img {
+  max-height: 32px;
+}
+
+/*--------------------------------------------------------------
+# Mobile Menu
+--------------------------------------------------------------*/
+.toggle__menu {
+  cursor: pointer;
+  margin: 0 0 0.5rem 1.25rem;
+}
+
+.menu_close {
+  background: #fff;
+  border-radius: 50%;
+  padding: 0.3125rem;
+}

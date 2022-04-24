@@ -57,6 +57,12 @@ body {
   height: 100px;
 }
 
+.menu_close svg {
+  transform: rotate(0);
+  transform-origin: center center;
+  transition: transform .5s ease;
+}
+
 .navbar__mobile .menu_close svg {
   transform: rotate(180deg);
   transition: transform .8s ease;

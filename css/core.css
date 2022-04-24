@@ -21,10 +21,9 @@ html {
 a, button  {
   font-family: 'Mulish', sans-serif;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.25;
   text-decoration: none;
-  color: #597281;
 }
 
 button {
@@ -50,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Quattrocento', serif;
   line-height: 1.25;
   margin: 0;
-  color: #00263D;
+  color: #5E302C;
 }
 
 p {
@@ -59,15 +58,42 @@ p {
   letter-spacing: 0.5px;
   margin: 0;
 }
+
+span {
+  letter-spacing: 0.5px;
+}
   
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
 
+.bg--dark {
+  background: #FBF2EF;
+}
+
+.bg--darker {
+  background: #FAEBE7;
+}
+
 /* Buttons */
 
 /* Typography */
+.text--light {
+  color: #746D6D;
+}
+
+.text--dark {
+  color: #5E302C;
+}
+
+.text--primary {
+  color: #614644;
+}
+
+.text--small {
+  font-size: 0.9375rem;
+}
 
 /* Layout & Grid */
 .container {
@@ -492,6 +518,30 @@ label {
 }
 
 /* Margins & Padding */
+.mb-6 {
+  margin-bottom: 0.375rem;
+}
+
+.mb-8 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-40 {
+  margin-bottom: 2.5rem;
+}
+
+
+.border-top {
+  border-top: 1px solid rgba(0, 38, 61, 0.1);
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 38, 61, 0.1);
+}
 
 /* Display Property */
 .d-none {

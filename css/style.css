@@ -4,6 +4,7 @@
 body {
   background: #FDF7F5;
   font-family: 'Mulish', sans-serif;
+  color: #614644;
   font-weight: 400;
   margin: 0;
 }
@@ -17,7 +18,6 @@ body {
   left: 0;
   right: 0;
   height: 92px;
-  border-bottom: 1px solid rgba(230, 233, 236, 0.1);
   z-index: 999;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -36,8 +36,41 @@ body {
   margin: 0 0 0.5rem 1.25rem;
 }
 
-.menu_close {
-  background: #fff;
-  border-radius: 50%;
-  padding: 0.3125rem;
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #FBF2EF;
+  transition: height .5s ease;
+  z-index: 2;
+  overflow-y: auto;
 }
+
+.navbar__mobile {
+  height: 100%;
+  transition: height .5s ease;
+}
+
+.mobile__header {
+  height: 92px;
+}
+
+.navbar__inner {
+  padding: 2.5rem;
+}
+
+.menu__link {
+  position: relative;
+  display: block;
+  padding: 0.8125rem 0;
+  font-size: 0.9375rem;
+  letter-spacing: 0.5px;
+  color: #614644;
+}
+
+.logo--mobile img {
+  max-height: 32px;
+}
+

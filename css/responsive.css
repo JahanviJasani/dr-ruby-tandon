@@ -1,0 +1,52 @@
+@media only screen and (min-width: 480px) {
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .header__logo img {
+    max-height: 42px;
+  }
+  .toggle__menu svg {
+    max-width: 34px;
+  }
+  .logo--mobile img {
+    max-height: 42px
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .header {
+    height: 110px;
+  }
+  .navbar {
+    position: relative;
+    height: auto;
+    background: transparent;
+    width: auto;
+    transition: none;
+    left: unset;
+    overflow: unset;
+  }
+  .navbar__inner {
+    padding: 0;
+  }
+  .menu__link {
+    padding: 0 1.125rem;
+    color: #746D6D;
+    transition: color 0.5s ease;
+  }
+  .menu__link:hover {
+    color: #5E302C;
+    transition: color 0.5s ease;
+  }
+  .contact--link {
+    color: #ED836E;
+    padding: 0;
+    margin-left: 1.125rem;
+  }
+  .contact--link:hover {
+    color: #ED836E;
+  }
+}

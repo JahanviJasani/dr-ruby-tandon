@@ -20,11 +20,11 @@ html {
 
 a, button  {
   font-family: 'Mulish', sans-serif;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25;
   display: block;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
   text-decoration: none;
 }
 
@@ -79,6 +79,26 @@ label {
 }
 
 /* Buttons */
+.btn__link {
+  display: inline-block;
+  color: #ED836E;
+  position: relative;
+}
+
+.btn__link:before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  width: 100%;
+  height: 1px;
+  background: #F6DCD5;
+  transition: all 0.3s ease;
+}
+
+.btn__link:hover::before {
+  background: #F6C3B6;
+  transition: all 0.3s ease;
+}
 
 /* Typography */
 .text--light {
@@ -129,7 +149,7 @@ label {
 
 @media (min-width: 1367px) {
   .container {
-    padding: 0 100px;
+    padding: 0 80px;
   }
 }
 

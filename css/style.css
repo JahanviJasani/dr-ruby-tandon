@@ -36,6 +36,10 @@ body {
   margin: 0 0 0.5rem 1.25rem;
 }
 
+.toggle__menu svg {
+  max-width: 28px;
+}
+
 .navbar {
   position: fixed;
   left: 0;
@@ -73,10 +77,8 @@ body {
 }
 
 .menu__link {
-  position: relative;
   display: block;
   padding: 0.8125rem 0;
-  font-size: 0.875rem;
   color: #614644;
 }
 

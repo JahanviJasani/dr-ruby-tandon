@@ -19,9 +19,17 @@
   function getCurrentScroll() {
     return window.pageYOffset;
   }
-  
+
+  var x = 0;
   $('.toggle__menu').on('click', function(e) {
-    $('.navbar').toggleClass('navbar__mobile');
+    if(x==0) {
+      $('.navbar').addClass('navbar__mobile');
+      x=1;
+    }
+    else {
+      $('.navbar').removeClass('navbar__mobile');
+      x=0
+    }
   });
 
     $('a[href*="#"]').not('[href="#"]').click(function(event) {

@@ -23,6 +23,7 @@ a, button  {
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.25;
+  letter-spacing: 0.5px;
   text-decoration: none;
 }
 

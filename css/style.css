@@ -17,7 +17,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 92px;
+  height: 100px;
   z-index: 999;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -25,7 +25,7 @@ body {
 }
 
 .header__logo img {
-  max-height: 32px;
+  max-height: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -54,7 +54,7 @@ body {
 }
 
 .mobile__header {
-  height: 92px;
+  height: 100px;
 }
 
 .navbar__inner {
@@ -65,12 +65,11 @@ body {
   position: relative;
   display: block;
   padding: 0.8125rem 0;
-  font-size: 0.9375rem;
-  letter-spacing: 0.5px;
+  font-size: 0.875rem;
   color: #614644;
 }
 
 .logo--mobile img {
-  max-height: 32px;
+  max-height: 40px;
 }
 

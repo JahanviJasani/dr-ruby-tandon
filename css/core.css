@@ -536,13 +536,17 @@ label {
   margin-bottom: 2.5rem;
 }
 
+.mt-40 {
+  margin-top: 2.5rem;
+}
+
 
 .border-top {
-  border-top: 1px solid rgba(0, 38, 61, 0.1);
+  border-top: 1px solid #F6DCD5;
 }
 
 .border-bottom {
-  border-bottom: 1px solid rgba(0, 38, 61, 0.1);
+  border-bottom: 1px solid #F6DCD5;
 }
 
 /* Display Property */

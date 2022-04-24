@@ -73,6 +73,10 @@ body {
   max-height: 40px;
 }
 
+.mobile__footer {
+  padding-top: 3rem;
+}
+
 .contact_box__links {
   font-size: 1.0625rem;
   margin-bottom: 0.625rem;

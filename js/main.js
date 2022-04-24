@@ -1,29 +1,29 @@
 (function() {
-    "use strict";
-  
-    $(window).on("load",function(){
-      $(".loading").fadeOut("slow");
-    });
-      
-    var shrinkHeader = 50;
-    $(window).scroll(function() {
-      var scroll = getCurrentScroll();
-      if ( scroll >= shrinkHeader ) {
-          $('.header').addClass('scrolled');
-      }
-      else {
-        $('.header').removeClass('scrolled');
-      }
-    });
-  
-    function getCurrentScroll() {
-      return window.pageYOffset;
+  "use strict";
+
+  $(window).on("load",function(){
+    $(".loading").fadeOut("slow");
+  });
+    
+  var shrinkHeader = 50;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+    if ( scroll >= shrinkHeader ) {
+        $('.header').addClass('scrolled');
     }
+    else {
+      $('.header').removeClass('scrolled');
+    }
+  });
+
+  function getCurrentScroll() {
+    return window.pageYOffset;
+  }
   
-    $('.toggle__menu').on('click', function(e) {
-      $('.navbar').toggleClass('navbar__mobile');
-    });
-  
+  $('.toggle__menu').on('click', function(e) {
+    $('.navbar').toggleClass('navbar__mobile');
+  });
+
     $('a[href*="#"]').not('[href="#"]').click(function(event) {
       if ( location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);

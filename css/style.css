@@ -73,3 +73,8 @@ body {
   max-height: 40px;
 }
 
+.contact_box__links {
+  font-size: 1.0625rem;
+  margin-bottom: 0.625rem;
+}
+

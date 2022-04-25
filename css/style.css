@@ -231,8 +231,11 @@ body {
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+.service__box {
+  margin-bottom: 5rem;
+}
 .service--title {
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   margin-top: 1.5rem;
 }
 

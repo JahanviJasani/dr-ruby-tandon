@@ -150,6 +150,10 @@ label {
   text-align: center;
 }
 
+.font--600 {
+  font-weight: 600;
+}
+
 /* Layout & Grid */
 .container {
   width: 100%;

@@ -13,7 +13,7 @@ body {
 # Typography
 --------------------------------------------------------------*/
 .title--one {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
 }
 
 /*--------------------------------------------------------------
@@ -21,6 +21,20 @@ body {
 --------------------------------------------------------------*/
 .section--padding {
   padding: 6.25rem 0;
+}
+
+.section__sub {
+  font-family: 'Italianno', cursive;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.header_space {
+  margin-bottom: 7.5rem;
+}
+
+.services__header {
+  max-width: 620px;
 }
 
 .order--mob {
@@ -190,12 +204,10 @@ body {
 
 .curve--left span {
   margin-left: 0.75rem;
-  /* margin-left: 1.5625rem; */
 }
 
 .curve--right span {
   margin-right: 0.75rem;
-  /* margin-right: 1.5625rem; */
 }
 
 

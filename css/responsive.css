@@ -9,6 +9,7 @@
     display: none;
   }
 }
+
 @media only screen and (min-width: 400px) {
   /*--------------------------------------------------------------
   # Typography
@@ -67,6 +68,15 @@
   --------------------------------------------------------------*/
   .pt-header {
     padding-top: 6.875rem;
+  }
+  .mb-ow {
+    margin-bottom: 0;
+  }
+  .mt-ex {
+    margin-top: 2.5rem;
+  }
+  .mt-cm {
+    margin-top: 6.25rem;
   }
   /*--------------------------------------------------------------
   # Sections

@@ -147,44 +147,59 @@ body {
 /*--------------------------------------------------------------
 # Curve Images
 --------------------------------------------------------------*/
+.curve__img {
+  max-width: 92%;
+}
+
 .curve__el {
   position: absolute;
-  height: 92px;
+  height: 74px;
+  /* height: 92px; */
   top: 50px;
   display: flex;
   align-items: center;
 }
 
 .curve--left {
-  left: -46px;
+  left: -37px;
+  /* left: -46px; */
 }
 
 .curve--right {
-  right: -46px;
+  right: -37px;
+  /* right: -46px; */
 }
 
-.curve__el svg {
-  max-height: 100%;
+.curve__svg {
+  height: 100%;
   position: absolute;
 }
 
-.curve--right svg {
+.curve__svg svg {
+  width: 100%;
+  height: 100%;
+}
+
+.curve--right .curve__svg {
   right: 0;
 }
 
 .curve__el span {
   display: block;
-  font-size: 1rem;
+  font-size: 0.8125rem;
+  /* font-size: 1rem; */
   font-weight: 600;
   white-space: nowrap;
 }
 
 .curve--left span {
-  margin-left: 1.5625rem;
+  margin-left: 0.75rem;
+  /* margin-left: 1.5625rem; */
 }
 
 .curve--right span {
-  margin-right: 1.5625rem;
+  margin-right: 0.75rem;
+  /* margin-right: 1.5625rem; */
 }
 
 

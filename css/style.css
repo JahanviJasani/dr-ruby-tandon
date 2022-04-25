@@ -13,7 +13,8 @@ body {
 # Typography
 --------------------------------------------------------------*/
 .title--one {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
+  /* font-size: 2.25rem; */
 }
 
 /*--------------------------------------------------------------
@@ -21,6 +22,10 @@ body {
 --------------------------------------------------------------*/
 .section--padding {
   padding: 6.25rem 0;
+}
+
+.order--mob {
+  order: 1;
 }
 
 /*--------------------------------------------------------------
@@ -53,8 +58,19 @@ body {
   transition: all 0.5s;
 }
 
+.scrolled {
+  background: #FBF2EF;
+  height: 75px !important;
+  border-color: transparent;
+}
+
 .header__logo img {
   max-height: 40px;
+  transition: all 0.5s ease-out;
+}
+
+.scrolled .header__logo img {
+  max-height: 36px;
 }
 
 /*--------------------------------------------------------------

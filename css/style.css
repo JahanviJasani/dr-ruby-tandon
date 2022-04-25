@@ -111,6 +111,10 @@ body {
   color: #614644;
 }
 
+.contact--link:before {
+  visibility: hidden;
+}
+
 .logo--mobile img {
   max-height: 40px;
 }
@@ -148,7 +152,9 @@ body {
   position: absolute;
 }
 
-.curve--right
+.curve--right svg {
+  right: 0;
+}
 
 .curve__el span {
   display: block;
@@ -162,7 +168,7 @@ body {
 }
 
 .curve--right span {
-  margin-left: -1.5625rem;
+  margin-right: 1.5625rem;
 }
 
 

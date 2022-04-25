@@ -15,6 +15,12 @@
 
 @media only screen and (min-width: 992px) {
   /*--------------------------------------------------------------
+  # Margins & Padding
+  --------------------------------------------------------------*/
+  .pt-header {
+    padding-top: 6.875rem;
+  }
+  /*--------------------------------------------------------------
   # Header
   --------------------------------------------------------------*/
   .header {
@@ -43,10 +49,22 @@
   }
   .contact--link {
     color: #ED836E;
-    padding: 0;
+    padding: 0 !important;
     margin-left: 1.125rem;
+  }
+  .contact--link:before {
+    visibility: visible;
   }
   .contact--link:hover {
     color: #ED836E;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+  .menu__link {
+    padding: 0 1.375rem;
   }
 }

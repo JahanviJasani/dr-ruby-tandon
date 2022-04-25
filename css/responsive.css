@@ -14,12 +14,12 @@
   /*--------------------------------------------------------------
   # Typography
   --------------------------------------------------------------*/
-  /* .title--one {
-    font-size: 1.75rem;
+  .title--one {
+    font-size: 1.625rem;
   }
   .section__sub {
-    font-size: 2.375rem;
-  } */
+    font-size: 2.25rem;
+  }
 }
 
 @media only screen and (min-width: 480px) {

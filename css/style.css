@@ -14,7 +14,6 @@ body {
 --------------------------------------------------------------*/
 .title--one {
   font-size: 1.875rem;
-  /* font-size: 2.25rem; */
 }
 
 /*--------------------------------------------------------------
@@ -154,7 +153,6 @@ body {
 .curve__el {
   position: absolute;
   height: 74px;
-  /* height: 92px; */
   top: 50px;
   display: flex;
   align-items: center;
@@ -162,16 +160,15 @@ body {
 
 .curve--left {
   left: -37px;
-  /* left: -46px; */
 }
 
 .curve--right {
   right: -37px;
-  /* right: -46px; */
 }
 
 .curve__svg {
-  height: 100%;
+  height: 74px;
+  width: 74px;
   position: absolute;
 }
 
@@ -187,7 +184,6 @@ body {
 .curve__el span {
   display: block;
   font-size: 0.8125rem;
-  /* font-size: 1rem; */
   font-weight: 600;
   white-space: nowrap;
 }

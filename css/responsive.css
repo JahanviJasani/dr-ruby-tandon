@@ -1,4 +1,7 @@
 @media only screen and (max-width: 359px) {
+  /*--------------------------------------------------------------
+  # Curve Images
+  --------------------------------------------------------------*/
   .curve__img {
     max-width: 100%;
   }
@@ -6,6 +9,47 @@
     display: none;
   }
 }
+
+@media only screen and (min-width: 480px) {
+  /*--------------------------------------------------------------
+  # Curve Images
+  --------------------------------------------------------------*/
+  .curve__el {
+    height: 94px;
+  }
+  .curve--left {
+    left: -47px;
+  }
+  .curve--right {
+    right: -47px;
+  }
+  .curve__svg {
+    width: 94px;
+    height: 94px;
+  }
+  .curve__el span {
+    font-size: 1rem;
+  }
+  .curve--left span {
+    margin-left: 1.5625rem;
+  }
+  .curve--right span {
+    margin-right: 1.5625rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /*--------------------------------------------------------------
+  # Typography
+  --------------------------------------------------------------*/
+  p {
+    font-size: 1.125rem;
+  }
+  .title--one {
+    font-size: 2.25rem;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   /*--------------------------------------------------------------
   # Margins & Padding
@@ -62,5 +106,11 @@
   --------------------------------------------------------------*/
   .menu__link {
     padding: 0 1.375rem;
+  }
+  /*--------------------------------------------------------------
+  # Curve Images
+  --------------------------------------------------------------*/
+  .curve__img {
+    max-width: 100%;
   }
 }

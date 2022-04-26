@@ -186,6 +186,19 @@
   .order {
     order: unset;
   }
+  /*--------------------------------------------------------------
+  # Testimonials Section
+  --------------------------------------------------------------*/
+  .tm--ind {
+    padding-top: 7rem;
+    height: 100%;
+  }
+  .tm--ind .slick-dots {
+    flex-direction: column;
+  }
+  .tm--ind .slick-dots li {
+    margin: 0.5rem 0;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -229,6 +242,12 @@
   /*--------------------------------------------------------------
   # Testimonials Section
   --------------------------------------------------------------*/
+  .slick-list{
+    padding:0 20% 0 0;
+  }
+  .slick-slide {
+    margin-right: 3rem;
+  }
   .section__testimonials .container {
     padding-right: 0;
   }

@@ -268,11 +268,11 @@ body {
   padding: 6.875rem 2rem 2.5rem;
 }
 
-.testimonial__box:nth-child(even) .testimonial__inner {
+.slick-slide:nth-child(odd) .testimonial__inner {
   background: #EDF2F6;
 }
 
-.testimonial__box:nth-child(even) .testimonial__content {
+.slick-slide:nth-child(odd) .testimonial__content {
   color: #415967;
 }
 
@@ -280,7 +280,7 @@ body {
   color: #5E302C;
 }
 
-.testimonial__box:nth-child(even) .feature__user--name {
+.slick-slide:nth-child(odd) .feature__user--name {
   color: #00263D;
 }
 
@@ -294,26 +294,30 @@ body {
   max-width: 140px;
 }
 
-.glide__bullet {
-  width: 0.4375rem;
-  height: 0.4375rem;
-  border-radius: 100%;
-  background: rgba(237, 131, 110, 0.4);
+.slick-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots li {
   margin: 1.5rem 0.4375rem 0;
 }
 
-.glide__bullet:hover {
-  width: 0.625rem;
-  height: 0.625rem;
-  background: transparent;
-  border: 2px solid #5E302C;
+.slick-dots li button {
+  font-size: 0;
+  width: 0.5625rem;
+  height: 0.5625rem;
+  border-radius: 100%;
+  background: rgba(237, 131, 110, 0.4);
 }
 
-.glide__bullet--active {
-  width: 0.625rem;
-  height: 0.625rem;
-  background: transparent;
-  border: 2px solid #5E302C;
+.slick-dots li button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.slick-dots .slick-active button {
+  background: #5E302C;
 }
 
 

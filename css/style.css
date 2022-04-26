@@ -30,11 +30,15 @@ body {
 }
 
 .header_space {
-  margin-bottom: 6.25rem;
+  margin-bottom: 5.625rem;
 }
 
 .services__header {
   max-width: 620px;
+}
+
+.testimonials__header {
+  max-width: 440px;
 }
 
 .order--mob {
@@ -232,17 +236,19 @@ body {
 # Services Section
 --------------------------------------------------------------*/
 .service__box {
-  margin-bottom: 5rem;
-  max-width: 270px;
+  margin-bottom: 4.0625rem;
+  /* margin-bottom: 5rem; */
+  max-width: 240px;
 }
 
 .service__box--content {
+  max-width: 240px;
   height: max-content;
 }
 
 .service__box--text {
   position: absolute;
-  top: 42%;
+  top: 38%;
   padding: 0 6%;
 }
 
@@ -252,29 +258,29 @@ body {
 }
 
 /*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.section__testimonials .container {
+  padding-right: 0;
+}
+.testimonial__box {
+  padding-top: 140px;
+  /* width: 75%; */
+}
+
+.feature__user--img {
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+
+.testimonial__inner {
+  padding: 2rem;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.social__icons {
-  grid-template-columns: repeat(2, 45px);
-  grid-column-gap: 1rem;
-}
-
-.social__icon {
-  width: 45px;
-  height: 45px;
-  font-size: 1.0625rem;
-  border: 1px solid #BCCBDA;
-  border-radius: 50%;
-  color: #00263D;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-
-.social__icon:hover {
-  background: #00405B;
-  border-color: #00405B;
-  color: #fff;
-}
 
 

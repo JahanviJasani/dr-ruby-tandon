@@ -78,7 +78,28 @@
   .header_space {
     margin-bottom: 7.5rem;
   }
-  
+  /*--------------------------------------------------------------
+  # Services Section
+  --------------------------------------------------------------*/
+  .service__box {
+    margin-bottom: 5rem;
+    max-width: 250px;
+  }
+  .service__box--content {
+    max-width: 250px;
+  } 
+  .order-1  {
+    order: 1;
+  }
+  .order-2  {
+    order: 2;
+  }
+  .order-3  {
+    order: 3;
+  }
+  .order-4  {
+    order: 4;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -138,6 +159,12 @@
   .contact--link:hover {
     color: #ED836E;
   }
+  /*--------------------------------------------------------------
+  # Services Section
+  --------------------------------------------------------------*/
+  .order {
+    order: unset;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -166,7 +193,14 @@
   # Services Section
   --------------------------------------------------------------*/
   .service__box {
+    max-width: unset;
     margin-bottom: 6.25rem;
+  }
+  .service__box--content {
+    max-width: unset;
+  }
+  .service__box--text {
+    top: 42%;
   }
   .service--title {
     margin-top: 1.875rem;

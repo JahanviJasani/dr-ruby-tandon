@@ -237,7 +237,6 @@ body {
 --------------------------------------------------------------*/
 .service__box {
   margin-bottom: 4.0625rem;
-  /* margin-bottom: 5rem; */
   max-width: 240px;
 }
 
@@ -260,16 +259,9 @@ body {
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
-.section__testimonials .container {
-  padding-right: 0;
-}
-
-.slider__wrapper {
-  padding-right: 0;
-}
-
 .testimonial__box {
-  padding-top: 140px;
+  padding-top: 6.5625rem;
+  /* padding-top: 140px; */
 }
 
 .testimonial__inner {
@@ -297,6 +289,10 @@ body {
   position: absolute;
   top: 0;
   right: 5.625rem;
+}
+
+.feature__user--img img {
+  max-width: 150px;
 }
 
 

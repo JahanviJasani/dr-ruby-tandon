@@ -68,6 +68,19 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  /*--------------------------------------------------------------
+  # Sections
+  --------------------------------------------------------------*/
+  .section--padding {
+    padding: 6.25rem 0;
+  }
+  .header_space {
+    margin-bottom: 7.5rem;
+  }
+  
+}
+
 @media only screen and (min-width: 992px) {
   /*--------------------------------------------------------------
   # Margins & Padding

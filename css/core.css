@@ -79,6 +79,18 @@ label {
   background: #FAEBE7;
 }
 
+.bg--orange {
+  background: #F0986B;
+}
+
+.bg--pink {
+  background: #FCEFEC;
+}
+
+.bg--blue {
+  background: #EDF2F6;
+}
+
 /* Buttons */
 .btn__solid {
   display: inline-block;
@@ -118,8 +130,12 @@ label {
 }
 
 /* Typography */
-.text--light {
+.text--plight {
   color: #746D6D;
+}
+
+.text--light {
+  color: #F6F4F4;
 }
 
 .text--dark {

@@ -20,7 +20,7 @@ body {
 # Sections
 --------------------------------------------------------------*/
 .section--padding {
-  padding: 6.25rem 0;
+  padding: 5rem 0;
 }
 
 .section__sub {
@@ -30,7 +30,7 @@ body {
 }
 
 .header_space {
-  margin-bottom: 7.5rem;
+  margin-bottom: 6.25rem;
 }
 
 .services__header {
@@ -234,6 +234,17 @@ body {
 .service__box {
   margin-bottom: 5rem;
 }
+
+.service__box--content {
+  height: max-content;
+}
+
+.service__box--text {
+  position: absolute;
+  top: 42%;
+  padding: 0 6%;
+}
+
 .service--title {
   font-size: 1.0625rem;
   margin-top: 1.5rem;

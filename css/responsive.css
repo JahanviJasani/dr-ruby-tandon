@@ -66,6 +66,24 @@
   .section__sub {
     font-size: 2.375rem;
   }
+  /*--------------------------------------------------------------
+  # Testimonials Section
+  --------------------------------------------------------------*/
+  .testimonials__header {
+    max-width: 440px;
+  }
+  .testimonial__box {
+    padding-top: 7rem;
+  }
+  .testimonial__inner {
+    padding: 8rem 3.125rem 3.125rem;
+  }
+  .feature__user--img {
+    right: 3.125rem;
+  }
+  .feature__user--img img {
+    max-width: 160px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,6 +95,9 @@
   }
   .header_space {
     margin-bottom: 7.5rem;
+  }
+  .mb-th {
+    margin-bottom: 2.5rem;
   }
   /*--------------------------------------------------------------
   # Services Section
@@ -117,9 +138,6 @@
   }
   .mt-cm {
     margin-top: 6.25rem;
-  }
-  .mb-th {
-    margin-bottom: 2.5rem;
   }
   /*--------------------------------------------------------------
   # Sections
@@ -214,7 +232,16 @@
   .section__testimonials .container {
     padding-right: 0;
   }
-  .slider__wrapper {
-    padding-right: 0;
+  .testimonial__box {
+    padding-top: 8.75rem;
+  }
+  .testimonial__inner {
+    padding: 10.625rem 5.625rem 4.375rem;
+  }
+  .feature__user--img {
+    right: 5.625rem;
+  }
+  .feature__user--img img {
+    max-width: unset;
   }
 }

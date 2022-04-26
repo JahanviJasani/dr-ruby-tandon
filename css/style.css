@@ -266,7 +266,7 @@ body {
 
 .testimonial__inner {
   background: #FCEFEC;
-  padding: 6.875rem 1.875rem 2.5rem;
+  padding: 6.875rem 2rem 2.5rem;
   /* padding: 10.625rem 5.625rem 4.375rem; */
 }
 
@@ -289,7 +289,8 @@ body {
 .feature__user--img {
   position: absolute;
   top: 0;
-  right: 5.625rem;
+  right: 2rem;
+  /* right: 5.625rem; */
 }
 
 .feature__user--img img {

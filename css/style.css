@@ -260,13 +260,14 @@ body {
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonial__box {
-  padding-top: 6.5625rem;
+  padding-top: 6.125rem;
   /* padding-top: 140px; */
 }
 
 .testimonial__inner {
   background: #FCEFEC;
-  padding: 10.625rem 5.625rem 4.375rem;
+  padding: 6.875rem 1.875rem 2.5rem;
+  /* padding: 10.625rem 5.625rem 4.375rem; */
 }
 
 .testimonial__box:nth-child(even) .testimonial__inner {
@@ -292,7 +293,7 @@ body {
 }
 
 .feature__user--img img {
-  max-width: 150px;
+  max-width: 140px;
 }
 
 

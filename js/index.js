@@ -3,15 +3,12 @@
   "use strict";
 
   /* Testimonials Slider */
-  $('.testimonials__slider').slick({
-    dots: true,
-    infinite: true,
-    arrows: false,
-    slidesToShow: 1,
-    centerMode: true,
-    centerPadding: '60px',
-  });
+  var options = {
+    type: 'carousel',
+    perView: 1.3,
+    gap: 48
+  }
   
+  var glide = new Glide('.testimonials__slider', options).mount()
   
-
 })()

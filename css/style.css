@@ -20,7 +20,7 @@ body {
 # Sections
 --------------------------------------------------------------*/
 .section--padding {
-  padding: 5rem 0;
+  padding: 5.625rem 0;
 }
 
 .section__sub {
@@ -233,6 +233,7 @@ body {
 --------------------------------------------------------------*/
 .service__box {
   margin-bottom: 5rem;
+  max-width: 270px;
 }
 
 .service__box--content {

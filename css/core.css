@@ -597,8 +597,16 @@ label {
 }
 
 /* Margins & Padding */
+.mb-16 {
+  margin-bottom: 1rem;
+}
+
 .mb-20 {
   margin-bottom: 1.25rem;
+}
+
+.mb-24 {
+  margin-bottom: 1.5rem;
 }
 
 .mb-30 {

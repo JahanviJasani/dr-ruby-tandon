@@ -230,7 +230,7 @@ body {
 # Overview Section
 --------------------------------------------------------------*/
 .overview__content {
-  max-width: 460px;
+  max-width: 520px;
 }
 
 /*--------------------------------------------------------------
@@ -252,8 +252,12 @@ body {
 
 .service__block--text {
   position: absolute;
-  top: 38%;
-  padding: 0 6%;
+  top: 39%;
+  padding: 0 6.5%;
+}
+
+.service__block--text p {
+  font-size: 1rem;
 }
 
 .service--title {

@@ -64,7 +64,7 @@
     font-size: 2.25rem;
   }
   .section__sub {
-    font-size: 2.375rem;
+    font-size: 2.5rem;
   }
   /*--------------------------------------------------------------
   # Testimonials Section
@@ -91,7 +91,7 @@
   # Sections
   --------------------------------------------------------------*/
   .section--padding {
-    padding: 6.25rem 0;
+    padding: 5.3125rem 0;
   }
   .header_space {
     margin-bottom: 7.5rem;
@@ -102,11 +102,11 @@
   /*--------------------------------------------------------------
   # Services Section
   --------------------------------------------------------------*/
-  .service__box {
+  .service__block {
     margin-bottom: 5rem;
     max-width: 250px;
   }
-  .service__box--content {
+  .service__block--content {
     max-width: 250px;
   } 
   .order-1  {
@@ -186,6 +186,9 @@
   .order {
     order: unset;
   }
+  .order-1 .service__block, .order-3 .service__block {
+    margin-bottom: 0;
+  }
   /*--------------------------------------------------------------
   # Testimonials Section
   --------------------------------------------------------------*/
@@ -226,14 +229,14 @@
   /*--------------------------------------------------------------
   # Services Section
   --------------------------------------------------------------*/
-  .service__box {
+  .service__block {
     max-width: unset;
     margin-bottom: 6.25rem;
   }
-  .service__box--content {
+  .service__block--content {
     max-width: unset;
   }
-  .service__box--text {
+  .service__block--text {
     top: 42%;
   }
   .service--title {
@@ -242,6 +245,9 @@
   /*--------------------------------------------------------------
   # Testimonials Section
   --------------------------------------------------------------*/
+  .mb-th {
+    margin-bottom: 0;
+  }
   .slick-list{
     padding:0 20% 0 0;
   }

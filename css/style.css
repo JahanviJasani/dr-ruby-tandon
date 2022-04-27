@@ -7,6 +7,7 @@ body {
   color: #614644;
   font-weight: 400;
   margin: 0;
+  overflow-x: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -229,23 +230,27 @@ body {
 # Overview Section
 --------------------------------------------------------------*/
 .overview__content {
-  max-width: 490px;
+  max-width: 460px;
 }
 
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.service__box {
+.service__block {
   margin-bottom: 4.0625rem;
   max-width: 240px;
 }
 
-.service__box--content {
+.order-3 .service__block {
+  margin-bottom: 0;
+}
+
+.service__block--content {
   max-width: 240px;
   height: max-content;
 }
 
-.service__box--text {
+.service__block--text {
   position: absolute;
   top: 38%;
   padding: 0 6%;
@@ -254,6 +259,11 @@ body {
 .service--title {
   font-size: 1.0625rem;
   margin-top: 1.5rem;
+}
+
+.reviv--block .reviv--logo {
+  position: absolute;
+  max-height: 160px;
 }
 
 /*--------------------------------------------------------------
@@ -318,6 +328,13 @@ body {
 
 .slick-dots .slick-active button {
   background: #5E302C;
+}
+
+/*--------------------------------------------------------------
+# Press Section
+--------------------------------------------------------------*/
+.press__block {
+  max-width: 340px;
 }
 
 

@@ -91,7 +91,7 @@ body {
 }
 
 .header__logo img {
-  max-height: 40px;
+  max-height: 36px;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;

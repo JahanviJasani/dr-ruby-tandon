@@ -8,6 +8,10 @@
   .curve__el {
     display: none;
   }
+  .service__block--text p {
+    word-spacing: 0;
+    font-size: 0.6875rem;
+  }
 }
 
 @media only screen and (min-width: 400px) {
@@ -19,6 +23,12 @@
   }
   .section__sub {
     font-size: 2.375rem;
+  }
+  /*--------------------------------------------------------------
+  # Services Section
+  --------------------------------------------------------------*/
+  .service__block--text p {
+    font-size: 0.875rem;
   }
 }
 
@@ -51,6 +61,9 @@
   .curve--right span {
     margin-right: 1.5625rem;
   }
+  .service__block--text {
+    padding: 0 10%;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -69,6 +82,15 @@
   }
   .section__sub {
     font-size: 2.5rem;
+  }
+  /*--------------------------------------------------------------
+  # Services Section
+  --------------------------------------------------------------*/
+  .service__block--text {
+    padding: 0 6.5%;
+  }
+  .service__block--text p {
+    font-size: 1rem;
   }
   /*--------------------------------------------------------------
   # Testimonials Section

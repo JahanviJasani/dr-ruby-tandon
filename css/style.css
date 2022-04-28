@@ -28,6 +28,10 @@ body {
   padding: 4.6875rem 0;
 }
 
+.section--small {
+  padding-bottom: 2rem;
+}
+
 .section__sub {
   font-family: 'Italianno', cursive;
   font-size: 2rem;

@@ -346,11 +346,21 @@ body {
 # Press Section
 --------------------------------------------------------------*/
 .press--container {
-  max-width: 82%;
+  max-width: 80%;
 }
 
-.press__block {
+.press__col {
+  margin-bottom: 3.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* .press__block {
   max-width: 340px;
+} */
+
+.press__img img {
+  width: 100%;
 }
 
 .press__content {

@@ -70,16 +70,11 @@
   /*--------------------------------------------------------------
   # Press Section
   --------------------------------------------------------------*/
-  .press__content {
-    grid-column-gap: 1.5rem;
+  .press--container {
+    max-width: 80%;
   }
-  .article__link {  
-    width: 36px;
-    height: 36px;
-    margin-bottom: 0.5rem;
-  }
-  .article__link img {
-    max-width: unset;
+  .press__block {
+    max-width: 340px;
   }
 }
 
@@ -269,6 +264,12 @@
   .tm--ind .slick-dots li {
     margin: 0.5rem 0;
   }
+  /*--------------------------------------------------------------
+  # Press Section
+  --------------------------------------------------------------*/
+  .press__col:nth-child(3) {
+    display: inherit;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -339,5 +340,14 @@
   }
   .feature__user--img img {
     max-width: unset;
+  }
+  .press__content {
+    grid-template-columns: repeat(2, auto);
+  }
+  /*--------------------------------------------------------------
+  # Press Section
+  --------------------------------------------------------------*/
+  .article__link {  
+    margin-bottom: 0.5rem;
   }
 }

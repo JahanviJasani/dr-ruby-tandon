@@ -25,11 +25,7 @@ body {
 # Sections
 --------------------------------------------------------------*/
 .section--padding {
-  padding: 3.75rem 0;
-}
-
-.section--small {
-  padding-bottom: 2rem;
+  padding: 4.0625rem 0;
 }
 
 .section__sub {

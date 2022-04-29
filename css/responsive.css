@@ -67,6 +67,20 @@
   .service__block--text {
     padding: 0 10%;
   }
+  /*--------------------------------------------------------------
+  # Press Section
+  --------------------------------------------------------------*/
+  .press__content {
+    grid-column-gap: 1.5rem;
+  }
+  .article__link {  
+    width: 36px;
+    height: 36px;
+    margin-bottom: 0.5rem;
+  }
+  .article__link img {
+    max-width: unset;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -113,6 +127,12 @@
   .feature__user--img img {
     max-width: 160px;
   }
+  /*--------------------------------------------------------------
+  # Press Section
+  --------------------------------------------------------------*/
+  .press--container {
+    max-width: 76%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -152,6 +172,12 @@
   }
   .order-4  {
     order: 4;
+  }
+  /*--------------------------------------------------------------
+  # Press Section
+  --------------------------------------------------------------*/
+  .press--container {
+    max-width: 100%;
   }
 }
 

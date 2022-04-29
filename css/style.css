@@ -349,6 +349,10 @@ body {
   max-width: 90%;
 }
 
+.press__row {
+  margin-bottom: 1rem;
+}
+
 .press__col {
   margin-bottom: 3.75rem;
   display: flex;

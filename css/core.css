@@ -127,7 +127,7 @@ label {
 }
 
 .btn__link:hover::before {
-  background: #F6C3B6;
+  background: #ED836E;
   transition: all 0.3s ease;
 }
 

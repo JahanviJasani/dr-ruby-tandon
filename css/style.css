@@ -18,7 +18,8 @@ body {
 }
 
 .title--two {
-  font-size: 1.125rem;
+  font-size: 1.1875rem;
+  line-height: 1.5;
 }
 
 /*--------------------------------------------------------------
@@ -417,3 +418,18 @@ body {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.footer {
+  background: #FBF2EF;
+}
+
+.social__icons {
+  grid-template-columns: repeat(3, 80px);
+  grid-column-gap: 0.625rem;
+}
+
+.social__icon {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #F6C3B6;
+  border-radius: 50%;
+}

@@ -423,6 +423,15 @@ body {
   margin-top: 2rem;
 }
 
+.footer__logo img {
+  max-height: 40px;
+}
+
+.footer__desc {
+  font-size: 1.0625rem;
+  line-height: 1.5;
+}
+
 .social__icons {
   grid-template-columns: repeat(3, 80px);
   grid-column-gap: 0.625rem;
@@ -433,4 +442,11 @@ body {
   height: 80px;
   border: 1px solid #F6C3B6;
   border-radius: 50%;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.social__icon:hover {
+  border-color: #5E302C;
 }

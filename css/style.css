@@ -25,7 +25,11 @@ body {
 # Sections
 --------------------------------------------------------------*/
 .section--padding {
-  padding: 4.0625rem 0;
+  padding: 4.6875rem 0;
+}
+
+.section--lpadding {
+  padding: 4.6875rem 0 3.75rem;
 }
 
 .section__sub {

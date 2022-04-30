@@ -433,7 +433,7 @@ body {
 }
 
 .footer__left {
-  margin-bottom: 3.75rem;
+  margin-bottom: 4.25rem;
 }
 
 .footer__right {
@@ -473,7 +473,11 @@ body {
 }
 
 .footer__grid {
-  grid-row-gap: 2rem;
+  grid-row-gap: 2.25rem;
+}
+
+.links__col {
+  grid-row-gap: 1.5rem;
 }
 
 .footer__link {

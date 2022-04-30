@@ -22,6 +22,10 @@ body {
   line-height: 1.5;
 }
 
+.title--caps {
+  font-size: 0.9375rem;
+}
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -178,7 +182,6 @@ body {
 
 .contact_box__links {
   font-size: 1.0625rem;
-  margin-bottom: 0.625rem;
 }
 
 /*--------------------------------------------------------------
@@ -270,7 +273,6 @@ body {
 }
 
 .service--title {
-  font-size: 0.9375rem;
   margin-top: 1.5rem;
 }
 
@@ -423,6 +425,18 @@ body {
   margin-top: 2rem;
 }
 
+.footer__col {
+  margin-bottom: 3rem;
+}
+
+.footer__left {
+  margin-bottom: 3.75rem;
+}
+
+.footer_brand__info {
+  margin-bottom: 2.5rem;
+}
+
 .footer__logo img {
   max-height: 40px;
 }
@@ -449,4 +463,22 @@ body {
 
 .social__icon:hover {
   border-color: #5E302C;
+}
+
+.footer__grid {
+  grid-row-gap: 2rem;
+}
+
+.footer__link {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer__bottom {
+  border-top: 1px solid #F6DCD5;
+  padding: 2rem 0;
+}
+
+.copyright {
+  color: rgba(97, 70, 68, 0.8);
 }

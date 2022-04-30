@@ -26,6 +26,7 @@ a, button  {
   line-height: 1.25;
   display: block;
   letter-spacing: 0.8px;
+  color: #746D6D;
   text-decoration: none;
 }
 
@@ -598,6 +599,14 @@ label {
 }
 
 /* Margins & Padding */
+.mb-8 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 0.625rem;
+}
+
 .mb-16 {
   margin-bottom: 1rem;
 }
@@ -614,6 +623,9 @@ label {
   margin-bottom: 1.875rem;
 }
 
+.mb-40 {
+  margin-bottom: 2.5rem;
+}
 .mb-60 {
   margin-bottom: 3.75rem;
 }

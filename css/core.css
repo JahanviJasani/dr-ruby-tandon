@@ -169,6 +169,10 @@ label {
   text-align: center;
 }
 
+.font--400 {
+  font-weight: 400;
+}
+
 .font--600 {
   font-weight: 600;
 }
@@ -640,6 +644,10 @@ label {
 
 .mx-auto {
   margin: 0 auto;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
 }
 
 

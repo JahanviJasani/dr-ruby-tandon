@@ -137,6 +137,15 @@
   .press--container {
     max-width: 76%;
   }
+  /*--------------------------------------------------------------
+  # CTA
+  --------------------------------------------------------------*/
+  .cta__img {
+    width: 440px;
+  }
+  .content__03 {
+    max-width: 440px;
+  }
   .footer__right {
     margin-bottom: 0;
   }
@@ -179,6 +188,9 @@
   --------------------------------------------------------------*/
   .press--container {
     max-width: 100%;
+  }
+  .content__03 {
+    max-width: 520px;
   }
   .footer_brand__info {
     text-align: center;
@@ -255,6 +267,12 @@
     color: #ED836E;
   }
   /*--------------------------------------------------------------
+  # Curve Images
+  --------------------------------------------------------------*/
+  .curve__img {
+    max-width: 96%;
+  }
+  /*--------------------------------------------------------------
   # Overview Section
   --------------------------------------------------------------*/
   .content__01 {
@@ -292,6 +310,23 @@
     display: inherit;
   }
   /*--------------------------------------------------------------
+  # CTA
+  --------------------------------------------------------------*/
+  .cta__bg {
+    height: 50%;
+    max-height: 530px;
+    background: url(../img/cta-bg-d.jpg);
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .cta__container {
+    margin-top: 15%;
+  }
+  .cta__content {
+    margin-top: 195px;
+  }
+  /*--------------------------------------------------------------
   # Footer
   --------------------------------------------------------------*/
   .footer, .footer__container {
@@ -327,11 +362,17 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  p {
+    letter-spacing: 0.1px;
+  }
   .title--one {
     font-size: 1.875rem;
   }
   .overview__content {
-    max-width: 93%;
+    max-width: 91%;
+  }
+  .cta__img {
+    max-width: 400px;
   }
 }
 
@@ -406,6 +447,18 @@
   }
   .article__link {  
     margin-bottom: 0.5rem;
+  }
+  /*--------------------------------------------------------------
+  # CTA
+  --------------------------------------------------------------*/
+  .cta__bg {
+    height: 60%;
+  }
+  .cta__img {
+    width: unset;
+  }
+  .cta__content {
+    margin-top: 250px;
   }
   /*--------------------------------------------------------------
   # Footer

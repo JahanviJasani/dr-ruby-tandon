@@ -331,6 +331,7 @@
   --------------------------------------------------------------*/
   .footer, .footer__container {
     padding: 0;
+    max-width: unset;
   }
   .footer__row {
     margin: 0;
@@ -423,6 +424,7 @@
   }
   .section__testimonials .container {
     padding-right: 0;
+    max-width: unset;
   }
   .testimonial__box {
     padding-top: 8.75rem;
@@ -471,5 +473,11 @@
   }
   .footer__logo img {
     max-height: unset;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .overview__content {
+    max-width: 480px;
   }
 }

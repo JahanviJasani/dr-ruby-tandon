@@ -97,7 +97,7 @@ body {
 .scrolled {
   background: #FDF7F5;
   border-color: #fceae5;
-  height: 75px !important;
+  height: 80px !important;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -148,7 +148,7 @@ body {
 }
 
 .scrolled .mobile__header {
-  height: 75px;
+  height: 80px;
 }
 
 .menu_close svg {

@@ -435,17 +435,18 @@ body {
   /* height: 60%; */
   /* max-height: 530px; */
   background: url(../img/cta-bg-m.jpg) center;
-  /* background-position: top right; */
+  background-position: top right;
   background-size: cover;
   /* background-attachment: fixed; */
 }
 
 .cta__container {
-  margin-top: 15%;
+  /* margin-top: 15%; */
+  margin-top: 20%;
 }
 
 .cta__content {
-  padding-top: 18%;
+  /* padding-top: 18%; */
 }
 
 .section__cta .overview__content {

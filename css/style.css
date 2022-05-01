@@ -110,10 +110,6 @@ body {
   transition: all 0.5s ease-out;
 }
 
-.scrolled .header__logo img {
-  max-height: 36px;
-}
-
 /*--------------------------------------------------------------
 # Mobile Menu
 --------------------------------------------------------------*/
@@ -149,6 +145,10 @@ body {
 
 .mobile__header {
   height: 100px;
+}
+
+.scrolled .mobile__header {
+  height: 75px;
 }
 
 .menu_close svg {
@@ -492,7 +492,7 @@ body {
 }
 
 .mobile__footer .social__icons {
-  grid-template-columns: repeat(4, 65px);
+  grid-template-columns: repeat(4, 50px);
 }
 
 .social__icon {
@@ -506,8 +506,8 @@ body {
 }
 
 .mobile__footer .social__icon {
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
 }
 
 .social__icon:hover {

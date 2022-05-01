@@ -27,6 +27,13 @@
   .section__sub {
     font-size: 2.375rem;
   }
+  .mobile__footer .social__icons {
+    grid-template-columns: repeat(4, 65px);
+  }
+  .mobile__footer .social__icon {
+    width: 65px;
+    height: 65px;
+  }
   /*--------------------------------------------------------------
   # Services Section
   --------------------------------------------------------------*/

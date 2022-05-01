@@ -137,6 +137,9 @@
   .press--container {
     max-width: 76%;
   }
+  .footer__right {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -301,13 +304,13 @@
   }
   .footer__right {
     padding: 5.625rem 0 0;
-    margin: 0;
   }
   .footer__col {
     margin-bottom: 3rem;
   }
   .links__col {
     padding-left: 1rem;
+   grid-row-gap: 2rem; 
   }
   .footer__logo {
     margin-bottom: 1.5rem;
@@ -406,5 +409,8 @@
   }
   .footer__col {
     margin-bottom: 3.75rem;
+  }
+  .footer__logo img {
+    max-height: unset;
   }
 }

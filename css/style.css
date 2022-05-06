@@ -18,6 +18,10 @@ body {
 }
 
 .title--two {
+  font-size: 1.25rem;
+}
+
+.title--three {
   font-size: 1.125rem;
   line-height: 1.5;
 }
@@ -559,4 +563,16 @@ body {
 .flinks__bottom a:hover {
   color: #5E302C;
   transition: color 0.3s ease;
+}
+
+/*--------------------------------------------------------------
+# Other pages
+--------------------------------------------------------------*/
+.hero__separator {
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 3.25rem;
+  padding: 1.5rem 0;
+  margin: 2rem 0 1.75rem;
+  border-top: 1px solid #F6DCD5;
+  border-bottom: 1px solid #F6DCD5;
 }

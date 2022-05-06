@@ -10,7 +10,6 @@
 }
 
 html {
-  font-family: sans-serif;
   line-height: 1.25;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -133,6 +132,10 @@ label {
 }
 
 /* Typography */
+.font--01 {
+  font-family: 'Quattrocento', serif;
+}
+
 .text--plight {
   color: #746D6D;
 }

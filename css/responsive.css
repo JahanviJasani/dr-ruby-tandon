@@ -481,6 +481,9 @@
   .footer__logo img {
     max-height: unset;
   }
+  .op__hero_content {
+    margin-bottom: 3.75rem;
+  }
 }
 
 @media only screen and (min-width: 1600px) {

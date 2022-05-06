@@ -634,8 +634,16 @@ label {
   margin-bottom: 3.75rem;
 }
 
+.mt-30 {
+  margin-top: 1.875rem;
+}
+
 .mt-40 {
   margin-top: 2.5rem;
+}
+
+.mt-100 {
+  margin-top: 6.25rem;
 }
 
 .mx-auto {
@@ -645,6 +653,7 @@ label {
 .mr-8 {
   margin-right: 0.5rem;
 }
+
 
 .pb-0 {
   padding-bottom: 0 !important;

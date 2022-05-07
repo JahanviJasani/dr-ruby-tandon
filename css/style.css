@@ -364,17 +364,17 @@ body {
   margin-bottom: 1rem;
 }
 
-.press__col {
+.article__col {
   margin-bottom: 3.75rem;
   display: flex;
   justify-content: center;
 }
 
-.press__col:nth-child(3) {
+.press__row .article__col:nth-child(3) {
   display: none;
 }
 
-.press__block {
+.article__block {
   max-width: 320px;
 }
 

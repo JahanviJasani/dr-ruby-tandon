@@ -316,7 +316,7 @@
   /*--------------------------------------------------------------
   # Press Section
   --------------------------------------------------------------*/
-  .article__col:nth-child(3) {
+  .press__row .article__col:nth-child(3) {
     display: inherit;
   }
   /*--------------------------------------------------------------
@@ -455,10 +455,13 @@
   # Press Section
   --------------------------------------------------------------*/
   .press__row {
-    margin-bottom: 2rem;
+    margin-bottom: 3.75rem;
   }
   .article__link {  
     margin-bottom: 0.5rem;
+  }
+  .articles--container .article__col {
+    margin-bottom: 5.625rem;
   }
   /*--------------------------------------------------------------
   # CTA
